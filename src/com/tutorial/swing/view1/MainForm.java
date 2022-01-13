@@ -30,7 +30,6 @@ public class MainForm {
                 TargedForm targedForm = new TargedForm();
                 targedForm.createLayout();
                 targedForm.receiveData(tfFirstName.getText(), tfLastName.getText(),tfAge.getText());
-
             }
         });
     }
