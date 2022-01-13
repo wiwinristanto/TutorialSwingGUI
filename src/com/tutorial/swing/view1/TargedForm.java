@@ -13,8 +13,7 @@ public class TargedForm {
         JFrame.setContentPane(rootTarged);
         JFrame.pack();
         JFrame.setLocationRelativeTo(null);
-       
-       // JFrame.setVisible(True);
+        JFrame.setVisible(true);
     }
     public void receiveData(String firstname, String LastName, String age ){
         lblFirstNAme.setText(firstname);
